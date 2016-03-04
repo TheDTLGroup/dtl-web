@@ -284,11 +284,11 @@ ul.social-list li a:hover i {
 /* ----------------------------------------------------------------*/
 /* Start Navigation Section */
 /* ----------------------------------------------------------------*/
-.mainnav-logo .sulfur-logo-text{
+.navbar-logo .sulfur-logo-text{
     margin-top: 15px !important;
 }
 
-.mainnav {
+.navbar {
 	margin-bottom: 0;
 	background: #fff;
     border-bottom: 1px solid #f2f2f2 !important;
@@ -299,7 +299,7 @@ ul.social-list li a:hover i {
     -o-border-radius: 0;
 }
 
-.mainnav-brand {
+.navbar-brand {
 	position: relative;
 	//padding: 27px 0;
     padding-top: 0;
@@ -310,14 +310,14 @@ ul.social-list li a:hover i {
     -o-transition: all 0.3s ease-in-out;
 }
 
-a.mainnav-brand {
+a.navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 40px;
     padding-top: 20px;
     color: #ff432e !important;
 }
 
-.mainnav-default .mainnav-nav {
+.navbar-default .navbar-nav {
 	margin-right: 10px!important;
 	position: relative;
 	transition: all 0.4s ease-in-out;
@@ -326,15 +326,15 @@ a.mainnav-brand {
     -o-transition: all 0.4s ease-in-out;
 }
 
-.mainnav-default .mainnav-nav > li {
+.navbar-default .navbar-nav > li {
     margin-left: 1px;
 }
 
-.mainnav-default .mainnav-nav > li:first-child {
+.navbar-default .navbar-nav > li:first-child {
     margin-left: 0;
 }
 
-.mainnav-default .mainnav-nav > li > a {
+.navbar-default .navbar-nav > li > a {
 	color: #6b6b6b;
 	display: block;
     font-size: 16px;
@@ -349,24 +349,24 @@ a.mainnav-brand {
     -o-transition: all 0.3s ease-in-out;
 }
 
-.mainnav-default .mainnav-nav > li > a i {
+.navbar-default .navbar-nav > li > a i {
     padding-left: 10px;
 }
 
-.mainnav-default .mainnav-nav > li > a.active, 
-.mainnav-default .mainnav-nav > li:hover > a {
+.navbar-default .navbar-nav > li > a.active, 
+.navbar-default .navbar-nav > li:hover > a {
 	border-top: 2px solid #FF432E;
     color: #fff;
     background: #FF432E;
     //padding: 25px 15px 30px;
 }
 
-.mainnav-default .mainnav-nav > li > a i {
+.navbar-default .navbar-nav > li > a i {
 	margin: 0 -2px 0 -5px;
 }
 
 
-.mainnav-default .mainnav-nav .dropdown {
+.navbar-default .navbar-nav .dropdown {
     position: absolute;
     left: 0;
     top: 97%;
@@ -386,7 +386,7 @@ a.mainnav-brand {
   	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.mainnav-default .mainnav-nav > li.drop:hover .dropdown {
+.navbar-default .navbar-nav > li.drop:hover .dropdown {
     visibility: visible;
 	opacity: 1;  
 }
@@ -432,7 +432,7 @@ a.mainnav-brand {
 	margin: 0 0 0 -4px;
 }
 
-.mainnav-default .mainnav-nav .sup-dropdown {
+.navbar-default .navbar-nav .sup-dropdown {
     position: absolute;
     left: 100%;
     top: 0;
@@ -451,7 +451,7 @@ a.mainnav-brand {
   	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.mainnav-default .mainnav-nav li.drop .dropdown li:hover .sup-dropdown {
+.navbar-default .navbar-nav li.drop .dropdown li:hover .sup-dropdown {
     visibility: visible;
     margin-top: 0;
 }
