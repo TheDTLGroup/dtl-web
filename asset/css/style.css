@@ -907,6 +907,9 @@ iframe {
     color: #fff;
 }
 
+.team-member .notfull {
+	float:none;
+}
 
 .team-member .team-details li {
     display: inline-block;
