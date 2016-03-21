@@ -1995,7 +1995,6 @@ h1.post-title a {
 .sidebar .widget-recent-post .media-left img {
     width: 130px;
     height: auto;
-    overflow: hidden;
 }
 
 .sidebar .widget-recent-post h4.media-heading a {
